@@ -1,0 +1,347 @@
+@font-face{
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'CormorantInfant-SemiBold';
+    src: url(../fonts/Cormorant_Infant/CormorantInfant-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'CormorantInfant-Light';
+    src: url(../fonts/Cormorant_Infant/CormorantInfant-Light.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'CormorantInfant-MediumItalic';
+    src: url(../fonts/Cormorant_Infant/CormorantInfant-MediumItalic.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Montserrat-Medium';
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'Montserrat-Regular';
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face{
+    font-family: 'CormorantInfant-SemiBoldItalic';
+    src: url(../fonts/Cormorant_Infant/CormorantInfant-SemiBoldItalic.ttf);
+    font-style: normal;
+    font-weight: 700;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body{
+    background-image: url(../img/background.jpg);
+    display: flex;
+    align-items: center;
+    
+}   
+.header{
+    height: 2132mm;
+    width: 667mm;
+    display: flex;
+    justify-content: center;
+}   
+.section-one .container{
+    width: 412mm;
+    height: 500mm;
+} 
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    width: 412mm;
+    height: 44mm;
+    margin-top: 22mm;
+}
+.one{
+    margin-right: 120mm;
+    display: flex;
+    justify-content: center;
+}
+.one a{
+    margin-right: 15mm;
+    font-size: 18pt;
+    color: #988F87;
+    font-family: 'Montserrat-Medium';
+}
+.two{
+    margin-right: 30mm;
+    display: flex;
+    justify-content: center; 
+}
+.two a{
+    font-size: 30pt;
+    color: #756B62;
+    font-family: 'CormorantInfant-SemiBold'
+}
+.three{
+    margin-left: 5mm;
+    display: flex;
+    justify-content: center;
+
+}
+.three a{
+    margin-left: 15mm;
+    font-size: 18pt;
+    color: #988F87;
+    font-family: 'Montserrat-Medium';
+    
+}
+.three .stickers a{
+    margin-left: 7mm;
+}
+.magko{
+    height: 380mm;
+    width: 412mm;
+    display: flex;
+    justify-content: center;
+    
+}
+.img1{
+    height: 96mm;
+    width: 96mm;
+    margin-right: 180mm;
+    
+}
+.img2 {
+    height: 201mm;
+    width: 254mm;
+    margin-left: -80mm;
+    margin-top: 30mm;
+
+}
+.zagolovok{
+    width: 230mm;
+    height: 65mm;
+    margin-top: -290mm;
+    
+}
+.zagolovok p{
+    font-size: 100pt;
+    font-family: 'CormorantInfant-Light';
+    color: #756B62;
+}
+.img3{
+    width: 60mm;
+    height: 60mm;
+    margin-left: 70mm; 
+}
+.img4{
+    width: 50mm;
+    height: 50mm;
+    opacity: 60%;
+    margin-left: 320mm;
+    margin-top: -35mm;
+}
+.stickers2{
+    width: 63mm;
+    height: 80mm;
+    margin-top: 72mm;
+    margin-left: 300mm;
+    font-size: 70px;
+}
+.zagolovok2{
+    width: 346mm;
+    height: 36mm;
+}
+.zagolovok2 h2{
+    font-family: 'CormorantInfant-MediumItalic';
+    font-size: 55pt;
+    color: #988F87;
+    margin-top: -40mm;
+    margin-left: 23mm;
+}
+.section-two{
+    width: 380mm;
+    height: 317px;
+}
+.zagolovok3{
+    width: 84mm;
+    height: 14mm;
+    display: flex;
+    justify-content: flex-start;
+}
+.zagolovok3 .linia{
+    height: 1mm;
+    width: 20mm;
+    background-color: #9F968E;
+}
+.zagolovok3 p{
+    font-size: 18pt;
+    color: #9F968E;
+    font-family: 'Montserrat-Medium' ;
+    margin-top: -4mm;
+    margin-left: 5mm;
+}
+.collectia{
+    width: 377mm;
+    height: 214mm;
+    display: flex;
+    justify-content: start;
+}
+.roza{
+    width: 166mm;
+    height: 214mm;
+    align-items: center;
+}
+.roza .zhena{
+    margin-top: 10mm;
+}
+.roza .zhena p{
+    font-family: 'Montserrat-Regular';
+    font-size: 18pt;
+    color: #988F87;
+}
+.ovsanya{
+    width: 166mm;
+    height: 214mm;
+    margin-left: 70mm;
+    align-items: center;
+}
+.ovsanya .zhena{
+    margin-top: 10mm;
+}
+.ovsanya .zhena p{
+    font-family: 'Montserrat-Regular';
+    font-size: 18pt;
+    color: #988F87;
+}
+.section-three{
+    width: 380mm;
+    height: 364px;
+}
+.zagolovok4{
+    width: 84mm;
+    height: 14mm;
+    display: flex;
+    justify-content: flex-start;
+}
+.zagolovok4 .linia{
+    height: 1mm;
+    width: 20mm;
+    background-color: #9F968E;
+}
+.zagolovok4 p{
+    font-size: 18pt;
+    color: #9F968E;
+    font-family: 'Montserrat-Medium' ;
+    margin-top: -4mm;
+    margin-left: 5mm;
+}
+.img5{
+    width: 380mm;
+    height: 364mm;
+
+}
+.zagolovok5{
+    width: 184mm;
+    height: 44mm;
+}
+.zagolovok5 p{
+    font-family: 'CormorantInfant-MediumItalic';
+    font-size: 55px;
+    font-weight: 100;
+    color: #756b62;
+    line-height: 56px;
+}
+.zagolovok6{
+    width: 140mm;
+    height: 44mm;
+}
+.zagolovok6 p{
+    font-family: 'CormorantInfant-SemiBoldItalic';
+    font-size: 24px;
+    margin-top: 30px;
+    color: #988f87;
+}
+.img5{
+    display: flex;
+    justify-content: center;
+}
+.img6{
+    width: 220mm;
+    height: 290mm;
+    display: flex;
+    flex-direction: column;
+}
+.mila{
+    width: 83mm;
+    height: 31mm;
+    display: flex;
+    justify-content: center;
+}
+.avatar{
+    width: 31mm;
+    height: 31mm;
+}
+.avatar img{
+    width: 70px;
+    height: 70px;
+}
+.ima-and-familia{
+    width: 50mm;
+    height: 31mm;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5mm;
+    
+}
+.ima-and-familia a{
+    font-family: 'Montserrat-Medium';
+    font-weight: 18px;
+    color: #756b62;
+    text-decoration: underline;
+}
+.ima-and-familia p{
+    font-family: 'Montserrat-Medium';
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+    color: #988f87;
+
+}
+.img7 img{
+    margin-left: 142mm;
+}
+.img8{
+    width: 132mm;
+    height: 292mm;
+    margin-top: -20mm;
+   
+}
+.img8 .roza{
+    margin-top: -116mm;
+    margin-left: 108mm;
+}
+.section-four{
+    width: 410mm;
+    height: 104mm;
+    margin-top: 200mm;
+}
+.derevo{
+    width: 151mm;
+    height: 103mm;
+}
+.derevo svg{
+    width: 150mm;
+    height: 53mm;
+}
